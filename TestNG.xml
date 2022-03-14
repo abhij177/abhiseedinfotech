@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRM">
+    <test name="Login functionality">
+         <classes>
+             <class name="browserLogin.BrowserLogin"/>
+             <class name="browserLogin.NewTest"/>
+          </classes>
+     </test> <!-- Test -->
+</suite> <!-- Suite -->
